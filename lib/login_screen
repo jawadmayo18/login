@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+void main() {
+  runApp(const Login()); // Corrected syntax with const
+}
+class LoginUi extends StatelessWidget {
+  const LoginUi({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Flutter Login UI",
+      theme: ThemeData(
+        primarySwatch: Colors.teal, // This sets the primary color of the app
+      ),
+
